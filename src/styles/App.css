@@ -3,3 +3,44 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+
+img {
+    max-width: 200px;
+    max-height: auto;
+}
+
+.stadium-list,
+.team-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+}
+
+.stadium-list__item,
+.team-list__item {
+    margin-bottom: 2rem;
+    background: lightgray;
+    width: 250px;
+    height: 250px;
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+.team-list__item img {
+   max-height: 150px; 
+}
+
+.stadium-list__link, 
+.team-list__link {
+    text-decoration: none;
+    color: black;
+}
+
+.stadium-list__header {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.stadium-list__subheader {
+    font-size: 16px;
+}
